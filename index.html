@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="Scripts/css.css">
+    <title>Game</title>
+</head>
+
+<body id="bg" style="display: none">
+    <h1 id="welcome" style="display: none">
+Welcome
+</h1>
+    <h2><p id="area">The Pit</p></h2>
+
+    <div id="container">
+        <div id="console">
+            <p id="message_help" style="display: none">No one can hear your cries...</p>
+            <!--PLACEHOLDER. messages go before this-->
+            <div id="placeholder"></div>
+        </div>
+        <!--INPUT return false stops the page from refreshing-->
+        <form onsubmit="return false;">
+            <center>
+                <input type="text" size="50" autofocus="autofucus" id="command_line">
+        </form>
+    </div>
+
+   <style id="#death"></style>
+    <script type="text/javascript" src="Scripts/jquery.js"></script>
+    <script type="text/javascript" src="./game.js"></script>
+</body>
+
+</html>

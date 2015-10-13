@@ -1,0 +1,75 @@
+#console {
+	display: none;
+}
+h1 {
+	color: white;
+	font-size: 4em;
+
+	
+}
+
+h2 {
+	color: white;
+	font-size: 3em;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 10%;
+	
+}
+body {
+	background-color: #191919;	
+	font-family: 'Arial', sans-serif;
+
+}
+
+#placeholder{
+	background-color:  #191919;
+	position: absolute;
+	color: white;
+
+
+	
+}
+
+#container {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -400px;
+	
+
+
+}
+
+#console {
+	background-color:#191919; 
+	height: 400px; 
+	width: 600px; 
+	margin: 0 auto;
+	overflow: auto;
+	color: white;
+	
+	
+}
+#console p {
+	color: white;
+	display: none;
+	font-size: 1em;
+	line-height:1em;
+
+}
+
+
+
+input {
+	background-color: #131313;
+	color: white;
+	border: 1px solid #333;
+	font-size: 1em;
+
+
+}
+
+
+
